@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceProcessing", "FaceProcessing\FaceProcessing.vcxproj", "{A1142521-3B81-4D47-852A-552055C03F3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0FEF8925-EA2E-4040-BF09-5185A407CBF5} = {0FEF8925-EA2E-4040-BF09-5185A407CBF5}
+		{208C932D-A71E-4C67-A444-0697E9A4226E} = {208C932D-A71E-4C67-A444-0697E9A4226E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cTracker3", "cTracker3\cTracker3.vcxproj", "{0FEF8925-EA2E-4040-BF09-5185A407CBF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Io", "HoloLensForCV\Io\Io.vcxproj", "{6E542043-C5D1-4850-B43E-E9295B640C2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debugging", "HoloLensForCV\Debugging\Debugging.vcxproj", "{AD347424-7340-47CE-A979-2C7F2DF0EB38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoloLensForCV", "HoloLensForCV\HoloLensForCV\HoloLensForCV.vcxproj", "{208C932D-A71E-4C67-A444-0697E9A4226E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1142521-3B81-4D47-852A-552055C03F3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1142521-3B81-4D47-852A-552055C03F3B}.Debug|x86.Build.0 = Debug|Win32
+		{A1142521-3B81-4D47-852A-552055C03F3B}.Release|x86.ActiveCfg = Release|Win32
+		{A1142521-3B81-4D47-852A-552055C03F3B}.Release|x86.Build.0 = Release|Win32
+		{0FEF8925-EA2E-4040-BF09-5185A407CBF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FEF8925-EA2E-4040-BF09-5185A407CBF5}.Debug|x86.Build.0 = Debug|Win32
+		{0FEF8925-EA2E-4040-BF09-5185A407CBF5}.Release|x86.ActiveCfg = Release|Win32
+		{0FEF8925-EA2E-4040-BF09-5185A407CBF5}.Release|x86.Build.0 = Release|Win32
+		{6E542043-C5D1-4850-B43E-E9295B640C2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E542043-C5D1-4850-B43E-E9295B640C2B}.Debug|x86.Build.0 = Debug|Win32
+		{6E542043-C5D1-4850-B43E-E9295B640C2B}.Release|x86.ActiveCfg = Release|Win32
+		{6E542043-C5D1-4850-B43E-E9295B640C2B}.Release|x86.Build.0 = Release|Win32
+		{AD347424-7340-47CE-A979-2C7F2DF0EB38}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD347424-7340-47CE-A979-2C7F2DF0EB38}.Debug|x86.Build.0 = Debug|Win32
+		{AD347424-7340-47CE-A979-2C7F2DF0EB38}.Release|x86.ActiveCfg = Release|Win32
+		{AD347424-7340-47CE-A979-2C7F2DF0EB38}.Release|x86.Build.0 = Release|Win32
+		{208C932D-A71E-4C67-A444-0697E9A4226E}.Debug|x86.ActiveCfg = Debug|Win32
+		{208C932D-A71E-4C67-A444-0697E9A4226E}.Debug|x86.Build.0 = Debug|Win32
+		{208C932D-A71E-4C67-A444-0697E9A4226E}.Release|x86.ActiveCfg = Release|Win32
+		{208C932D-A71E-4C67-A444-0697E9A4226E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A729684E-5293-47EC-AC2B-DA4AB68D8F38}
+	EndGlobalSection
+EndGlobal
