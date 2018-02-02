@@ -1,5 +1,5 @@
 # HoloFace
-HoloFace is a framework for facial augmented reality on HoloLens, it allows for augmenting the faces of people seen through HoloLens with various items and visual effects. It is described in detail in an article published at the 2018 IEEE Winter Conference on Applications of Computer Vision (WACV'2018). 
+HoloFace is a framework for facial augmented reality on HoloLens, it allows for augmenting the faces of people seen through HoloLens with various items and visual effects. It is described in detail in an article published at the 2018 IEEE Winter Conference on Applications of Computer Vision (WACV'2018). A preprint of the article is [available on arXiv](https://arxiv.org/abs/1802.00278).
 
 Look the video below to see HoloFace in action.
 
@@ -10,8 +10,8 @@ In order to run HoloFace you will need Unity (we used Unity 2017.3.0f3) and Visu
  1. Clone or download this repository.
  2. Open the HoloFace subdirectory with Unity.
  3. Got to File->Build Settings and select Universal Windows Platform.
- 4. Change the Target Device to HoloLens and click Build. Unity will likely throw several errors regarding System.Numerics.Vector2 (we are looking into getting rid of these), the project should however still work fine.
- 5. Open the project you just created using Visual Studio 2017, change Solution Configuration to Release and Solution Platform to x86.
+ 4. Change the Target Device to HoloLens and click Build. Choose a directory where Unity will generate a Visual Studio solution. Unity will likely throw several errors regarding System.Numerics.Vector2 (we are looking into getting rid of these), the project should however still work fine.
+ 5. Open the solution you just created using Visual Studio 2017, change Solution Configuration to Release and Solution Platform to x86.
  6. Change the target device from Local Machine to Remote Machine and input the IP number of the HoloLens.
  7. Press Ctrl+F5 to build and run on HoloLens.
  8. Try not to move your head till the Unity logo disappears (more details in the Known issues section below).
