@@ -67,6 +67,9 @@ If you use this software in your research, then please cite the following paper:
 
 Kowalski, M.; Nasarzewski Z.; Galinski G., Garbat P.: " HoloFace: Augmenting Human-to-Human Interactions on HoloLens ", WACV 2018
 
+## Commercial use
+The landmarks used for training the face alignment models in HoloFace are part of the 300-W and Menpo datasets. Note that the licenses for those datasets exclude commercial use. You should contact s.zafeiriou@imperial.ac.uk to find out if it's OK for you to use the model files in a commercial product.
+
 ## Contact
 If you have any questions or suggestions feel free to contact me at <m.kowalski@ire.pw.edu.pl>.
 
